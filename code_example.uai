@@ -1,0 +1,23 @@
+caso (35 == 35) intao
+    @ Exemplo de código mais básico do TypUai
+
+    intero x = 5
+    intero y = 7
+    intero z = x + y
+    bool varBool = !((x + 2 == 7) e (5 * (2 + 3) > 4))
+
+    caso ((z % 2) == 0) intao
+        print Numero_Par
+        z = 3
+    naodeu 
+        print Numero_Impar
+    ;
+
+    caso z % 2 !! 0 e varBool intao
+        print Mudou_para_Impar
+    ;
+
+    floop x 0 ate 5 intao
+            print Exemplo_For
+    ; 
+;
